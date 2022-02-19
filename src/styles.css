@@ -27,6 +27,13 @@ p {
   justify-content: center;
 }
 
+.flex-col-hcenter-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -51,37 +58,24 @@ p {
 }
 
 .navigation-bar-left-aligned-back {
-  position: relative;
+  padding: 77px 194px 6px 23px;
   margin-bottom: 46px;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0);
   width: 100%;
 }
 
-.txt-763 {
-  position: absolute;
-  top: calc(50% - 40px / 2 + 35px);
-  left: 24px;
+.txt-366 {
   font-size: 32px;
   font-family: Inter, sans-serif;
   font-weight: 500;
   line-height: 125%;
   letter-spacing: -1.5px;
   color: rgba(29, 35, 46, 1);
-  width: 155px;
-  height: 40px;
   word-wrap: break-word;
 }
 
-.status-bar-black {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 44px;
-  width: 100%;
-}
-
-.txt-262 {
+.txt-826 {
   font-size: 50px;
   font-family: Inter, sans-serif;
   font-weight: 500;
@@ -93,7 +87,7 @@ p {
   margin-bottom: 3px;
 }
 
-.txt-971 {
+.txt-169 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 500;
@@ -104,10 +98,18 @@ p {
   width: 221px;
   height: 16px;
   word-wrap: break-word;
-  margin-bottom: 32px;
+  margin-bottom: 27px;
 }
 
-.txt-188 {
+.button-primary-active {
+  padding: 15px 31px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgba(184, 29, 19, 1);
+  width: fit-content;
+}
+
+.txt-799 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 500;
@@ -152,7 +154,7 @@ p {
   height: 315.52px;
 }
 
-.txt-448 {
+.txt-41010 {
   font-size: 24px;
   font-family: Inter, sans-serif;
   font-weight: 500;
@@ -184,7 +186,7 @@ p {
   margin-right: 16px;
 }
 
-.txt-524 {
+.txt-816 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -195,7 +197,7 @@ p {
   margin-right: 181px;
 }
 
-.txt-441 {
+.txt-7310 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -222,7 +224,7 @@ p {
   margin-right: 16px;
 }
 
-.txt-227 {
+.txt-730 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -233,7 +235,7 @@ p {
   margin-right: 180px;
 }
 
-.txt-441 {
+.txt-7310 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -260,7 +262,7 @@ p {
   margin-right: 16px;
 }
 
-.txt-4110 {
+.txt-278 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -271,7 +273,7 @@ p {
   margin-right: 179px;
 }
 
-.txt-441 {
+.txt-7310 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -297,7 +299,7 @@ p {
   margin-right: 16px;
 }
 
-.txt-4110 {
+.txt-278 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -308,7 +310,7 @@ p {
   margin-right: 179px;
 }
 
-.txt-441 {
+.txt-7310 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -327,7 +329,7 @@ p {
   height: 336.85px;
 }
 
-.txt-353 {
+.txt-907 {
   font-size: 24px;
   font-family: Inter, sans-serif;
   font-weight: 500;
@@ -358,7 +360,7 @@ p {
   margin-right: 16px;
 }
 
-.txt-828 {
+.txt-270 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -369,7 +371,7 @@ p {
   margin-right: 213px;
 }
 
-.txt-441 {
+.txt-7310 {
   font-size: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
