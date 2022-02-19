@@ -1,5 +1,7 @@
 import React from "react"
 import "./styles.css"
+import StopWatch from './Components/StopWatch/StopWatch.jsx';
+import ControlButtons from "./Components/ControlButtons/ControlButtons";
 
 export default function Newdash() {
   return (
@@ -8,12 +10,11 @@ export default function Newdash() {
         <div className="navigation-bar-left-aligned-back flex-col-hstart-vstart">
           <p className="txt-366">Dashboard</p>
         </div>
-        <p className="txt-826 flex-hcenter">00:30:01</p>
-        <p className="txt-169 flex-hcenter">Phototherapy Duration</p>
-        <div className="button-primary-active flex-col-hcenter-vstart">
-          <p className="txt-799 flex-hcenter">Stop</p>
-        </div>
+        <p className="txt-921">Phototherapy Duration</p>
+        <p className="txt-169 flex-hcenter"><StopWatch /></p>
+
       </div>
+      
       <div className="ios-tab-bar flex-col-hstart-vstart">
         <div className="top-divider" />
       </div>
